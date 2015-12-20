@@ -1,0 +1,15 @@
+{
+  "name": "ankhem-auth",
+  "version": "0.0.7",
+  "description": "Ankhem Component: Auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sycuato",
+  "license": "MIT",
+  "dependencies": {
+    "ankhem-form": "*"
+  }
+}
+
