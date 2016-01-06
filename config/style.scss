@@ -1,0 +1,35 @@
+.form-auth {
+
+	.btn {
+		border: 0;
+	}
+
+	.form-inputs input {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border: none;
+	}
+
+	.form-inputs {
+		input, button {
+			border-radius: 0;
+		}
+	}
+
+	.form-inputs > * {
+		&:first-child{
+			&, & > input, & > button {
+				border-radius: 4px 4px 0 0;
+			}
+		}
+		&:last-child{
+			&, & > input, & > button {
+				border-radius: 0 0 4px 4px;
+			}
+		}
+	}
+
+	button[type='submit'] {
+		margin-top: 10px;
+	}
+}

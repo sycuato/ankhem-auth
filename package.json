@@ -1,6 +1,6 @@
 {
   "name": "ankhem-auth",
-  "version": "0.0.7",
+  "version": "0.0.25",
   "description": "Ankhem Component: Auth",
   "main": "index.js",
   "scripts": {

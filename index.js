@@ -1,8 +1,13 @@
-var Login 	= require('./lib/Login');
+var Login 	= require('./lib/Login')
 
+// config
+var router = require('./config/router')
 
 var Auth = {
-	Login: Login
+	Login: Login,
+	config: {
+		router: router
+	}
 }
 
 
